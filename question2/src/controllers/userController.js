@@ -1,13 +1,9 @@
-const { getTopUsers } = require('../services/userService');
+const { getTopUsersByPosts } = require('../services/apiService');
 
 const getTopUsersHandler = async (req, res) => {
     try {
-        console.log('Fetching top users...');
-
-        const topUsers = await getTopUsers();
-        
-        console.log('Successfully fetched top users:', topUsers);
-
+        console.log('Fetching top users by post count...');
+        const topUsers = await getTopUsersByPosts();
         res.json(topUsers);
     } catch (error) {
         console.error('Detailed error in getTopUsersHandler:', {

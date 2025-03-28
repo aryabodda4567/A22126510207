@@ -4,8 +4,7 @@ const axios = require('axios');
 
 const userRoutes = require('./src/routes/userRoutes');
 const postRoutes = require('./src/routes/postRoutes');
-const { updateUserPostCounts } = require('./src/services/userService');
-const { updatePosts } = require('./src/services/postService');
+ 
 
 const app = express();
 const port = process.env.PORT || 3000;
