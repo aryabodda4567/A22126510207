@@ -49,7 +49,7 @@ This is a RESTful API built with Express.js for managing numbers and their opera
 The API is available at `http://localhost:3000` (or your configured PORT)
 
 ### Numbers Routes
-- All number-related endpoints are prefixed with `/numbers`
+- Number endpoint is  `/numbers`
 
 ## Error Handling
 
