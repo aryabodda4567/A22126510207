@@ -26,7 +26,7 @@ This is a RESTful API built with Express.js for managing numbers and their opera
 ## Screenshots
 
 ### API Response Example 1
-![API Response Example 1](questio1/asset/Screenshot_20250328_152907.png)
+![API Response Example 1](question1/asset/Screenshot_20250328_152907.png)
 
 ### API Response Example 2
 ![API Response Example 2](question1/asset/Screenshot_20250328_153058.png)
