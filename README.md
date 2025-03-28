@@ -8,6 +8,7 @@ This is a RESTful API built with Express.js for managing numbers and their opera
 - Error handling middleware
 - JSON and URL-encoded body parsing
 - Modular route structure
+- Auto Refreshing Token
 
 ## Project Structure
 
